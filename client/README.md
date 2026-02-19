@@ -4,7 +4,7 @@ This is the frontend of QuickHire Job Portal built using React, Vite, and Tailwi
 
 ---
 
-## ⚙️ Tech Stack:
+## ⚙️ Tech Stack:-
 
 - React (Vite)
 
@@ -26,7 +26,7 @@ This is the frontend of QuickHire Job Portal built using React, Vite, and Tailwi
 
 ---
 
-## 🎨 UI Features:
+## 🎨 UI Features:-
 
 - Modern Stripe-style SaaS UI
 
@@ -40,7 +40,7 @@ This is the frontend of QuickHire Job Portal built using React, Vite, and Tailwi
 
 ---
 
-## 🧩 Main Pages:
+## 🧩 Main Pages:-
 
 - Home Page
 
@@ -56,22 +56,22 @@ This is the frontend of QuickHire Job Portal built using React, Vite, and Tailwi
 
 ---
 
-## 🔐 Authentication:
+## 🔐 Authentication:-
 
 - Authentication is handled using **Clerk**.
 
 ---
 
-### Required Environment Variables:
+### Required Environment Variables:-
 
-- Create a `.env` file inside `/client`:
+**Create a `.env` file inside `/client`:**
 
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
-VITE_BACKEND_URL=http://localhost:5000
+- VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+- VITE_BACKEND_URL=http://localhost:5000
 
 ---
 
-## 🚀 Running the Client:
+## 🚀 Running the Client:-
 
 - cd client
 - npm install
@@ -80,15 +80,15 @@ VITE_BACKEND_URL=http://localhost:5000
 
 ---
 
-## 📦 Build for Production:
+## 📦 Build for Production:-
 
 - npm run build
 
 ---
 
-## 🌍 Deployment:
+## 🌍 Deployment:-
 
-Recommended:
+**Recommended:**
 
 - Netlify
 
@@ -96,15 +96,11 @@ Recommended:
 
 ---
 
-## 🛠 Common Issues:
+## 🛠 Common Issues:-
 
 **1. API URL showing undefined**
 
-- Make sure:
-
-VITE_BACKEND_URL
-
-is correctly defined.
+- Make sure the VITE_BACKEND_URL is defined correctly.
 
 **2. Clerk not loading**
 
@@ -112,7 +108,7 @@ is correctly defined.
 
 ---
 
-## 👨‍💻 Developer:
+## 👨‍💻 Developed By:-
 
 - Vignesh R
 
