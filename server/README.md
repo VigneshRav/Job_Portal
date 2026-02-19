@@ -4,7 +4,7 @@ This is the backend server for QuickHire Job Portal built using Node.js, Express
 
 ---
 
-## 🛠 Tech Stack:
+## 🛠 Tech Stack:-
 
 - Node.js
 
@@ -28,7 +28,7 @@ This is the backend server for QuickHire Job Portal built using Node.js, Express
 
 ---
 
-## 🔑 Environment Variables:
+## 🔑 Environment Variables:-
 
 **Create a `.env` file inside `server`:**
 
@@ -45,7 +45,7 @@ This is the backend server for QuickHire Job Portal built using Node.js, Express
 
 ---
 
-## 🚀 Running the Server:
+## 🚀 Running the Server:-
 
 - cd server
 - npm install
@@ -72,16 +72,16 @@ This is the backend server for QuickHire Job Portal built using Node.js, Express
 
 **🏢 Company Routes (/api/company)**
 
-| Method | Endpoint                         | Description                         | Middleware       | Auth Required |
-| ------ | -------------------------------- | ------------------------------------| ---------------- ----------------|
-| POST   | `/api/company/register`          | Register a new company              | `multer`         | ❌ No         |
-| POST   | `/api/company/login`             | Company login                       | —                | ❌ No         |
-| GET    | `/api/company/company`           | Get logged-in company data          | `protectCompany` | ✅ Yes        |
-| POST   | `/api/company/post-job`          | Post a new job                      | `protectCompany` | ✅ Yes        |
-| GET    | `/api/company/applicants`        | Get all applicants for company jobs | `protectCompany` | ✅ Yes        |
-| GET    | `/api/company/list-jobs`         | Get all jobs posted by company      | `protectCompany` | ✅ Yes        |
-| POST   | `/api/company/change-status`     | Change job application status       | `protectCompany` | ✅ Yes        |
-| POST   | `/api/company/change-visibility` | Change job visibility               | `protectCompany` | ✅ Yes        |
+|Method | Endpoint                       | Description                        | Middleware       |Auth Req|
+|------ | -------------------------------| -----------------------------------| ---------------- |--------|
+| POST  | `/api/company/register`        | Register a new company             | `multer`         | ❌ No  |   
+| POST  | `/api/company/login`           | Company login                      |       —          | ❌ No  |
+| GET   | `/api/company/company`         | Get logged-in company data         | `protectCompany` | ✅ Yes |
+| POST  | `/api/company/post-job`        | Post a new job                     | `protectCompany` | ✅ Yes |
+| GET   | `/api/company/applicants`      | Get all applicants for company jobs| `protectCompany` | ✅ Yes |
+| GET   | `/api/company/list-jobs`       | Get all jobs posted by company     | `protectCompany` | ✅ Yes |
+| POST  | `/api/company/change-status`   | Change job application status      | `protectCompany` | ✅ Yes |
+| POST  |`/api/company/change-visibility`|Change job visibility               | `protectCompany` | ✅ Yes |
 
 
 **💼 Job Routes (/api/jobs)**
@@ -94,12 +94,12 @@ This is the backend server for QuickHire Job Portal built using Node.js, Express
 
 **👤 User Routes (/api/users)**
 
-| Method | Endpoint                   | Description               | Middleware | Auth Required               |
-| ------ | -------------------------- | ------------------------- | ---------- | --------------------------- |
-| GET    | `/api/users/user`          | Get logged-in user data   | —          | ❌ No                       |
-| POST   | `/api/users/apply`         | Apply for a job           | —          | ❌ No                       |
-| GET    | `/api/users/applications`  | Get user job applications | —          | ❌ No                       |
-| POST   | `/api/users/update-resume` | Upload/Update resume      | `multer`   | ❌ No                       |
+| Method | Endpoint                   | Description               | Middleware | Auth Required |
+| ------ | -------------------------- | ------------------------- | ---------- |-------------- |
+| GET    | `/api/users/user`          | Get logged-in user data   |    —       | ❌ No         |
+| POST   | `/api/users/apply`         | Apply for a job           |    —       | ❌ No         |
+| GET    | `/api/users/applications`  | Get user job applications |    —       | ❌ No         |
+| POST   | `/api/users/update-resume` | Upload/Update resume      | `multer`   | ❌ No         |
 
 
 **🛡 Middleware Used**
@@ -190,7 +190,7 @@ Check:
 
 ---
 
-## 👨‍💻 Developer:-
+## 👨‍💻 Developed By:-
 
 - Vignesh R
 
